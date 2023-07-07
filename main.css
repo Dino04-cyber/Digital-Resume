@@ -7,6 +7,12 @@
   color: white;
   font-family: Poppins, sans-serif;
 }
+section{
+  text-align: center;
+}
+h2{
+  color: #ff6600;
+}
 /* ---------------------------------------------NAV BAR CODE---------------------------------------------*/
 nav {
   background-color: #000000;
@@ -34,7 +40,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #f38200;
+  color: white;
+  background-color: #ff6600;
 }
 
 section {
