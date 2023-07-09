@@ -15,19 +15,6 @@ body {
     text-align: center;
   }
   
-  /* header .profile-image {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    max-width: 100%;
-    object-fit: cover;
-    background-color: #ccc;
-    background-image: url('me.jpg');
-    background-size: contain;
-    background-position: center;
-    border-radius: 50%;
-    image styling here
-  } */
   header .profile-image {
     text-align: center;
   }
@@ -152,3 +139,55 @@ nav {
     color: white;
     background-color: #ff6600;
   }
+
+  /* ---------------------------------------------MENU BUTTON CODE---------------------------------------------*/
+/* Styles for the menu button */
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #ff6600;
+}
+/* Hides the checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Styles for the menu */
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Media query for screen size below 600px */
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  /* Show menu when checkbox is checked */
+  #menu-toggle:checked ~ .menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
