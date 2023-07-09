@@ -1,80 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-        <li><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work-experience">Work Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    <div class="profile-image">
+        <div class="image-container">
+          <img src="media\me.jpg" alt="Your Profile Image">
+        </div>
+      </div>
+    </div>
+    <h1>OSvaldino Jovete</h1>
+    <h2>Web Developer</h2>
+    <p>An introductory statement about yourself</p>
+    <a href="#contact">Contact Me</a>
+    <a href="https://github.com/yourusername">GitHub</a>
   </header>
-   <section>
-    <div id="section1">
-      <h2>Section 1</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus voluptas, rerum sunt laboriosam eos a obcaecati. Tenetur, atque. Modi obcaecati quia eos fuga cum sapiente odio hic ratione voluptatum.
-      <!-- Content of Section 1 -->
-    </div>
 
-    <div id="section2">
-      <h2>Section 2</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro maxime cupiditate sed eveniet dolor facere impedit accusamus facilis quis. Inventore molestiae quia quo expedita placeat sapiente neque, ducimus delectus in.
-      <!-- Content of Section 2 -->
-    </div>
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>University Name - Degree Name, Year</li>
+      <li>Certification Name, Year</li>
+    </ul>
+  </section>
 
-    <div id="section3">
-      <h2>Section 3</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nulla eum eveniet voluptas inventore doloremque repellendus at odio, ratione deserunt minima error fugiat provident, possimus explicabo ab laboriosam dignissimos quaerat?
-      <!-- Content of Section 3 -->
-    </div>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: HTML, CSS, JavaScript</li>
+      <li>Tools: Git, GitHub</li>
+      <li>Software: Adobe Photoshop, Microsoft Office</li>
+      <li>Other Skills: Project Management, Problem Solving</li>
+    </ul>
+  </section>
 
-    <div id="section1">
-      <h2>Section 1</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates deserunt debitis fuga cupiditate error aspernatur sint tempora dicta eaque repudiandae, aperiam maxime a, architecto eum enim est illum eius similique.
-      <!-- Content of Section 1 -->
-    </div>
+  <section id="work-experience">
+    <h2>Work Experience</h2>
+    <ul>
+      <li>Company Name - Position, Year-Present</li>
+      <li>Company Name - Position, Year-Year</li>
+    </ul>
+  </section>
 
-    <div id="section2">
-      <h2>Section 2</h2>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, facere consequuntur. Magni veniam reprehenderit cumque quibusdam velit, temporibus consectetur, eligendi ab neque qui pariatur animi tempora minima non. Architecto, quasi.
-      <!-- Content of Section 2 -->
+  <footer>
+    <div id="contact">
+      <h3>Contact Me</h3>
+      <form action="https://formsubmit.co/your-formsubmit-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p>Email: yourname@example.com</p>
     </div>
+    <div id="social-links">
+      <a href="https://github.com/yourusername">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+      <!-- Add more social links as needed -->
+    </div>
+  </footer>
 
-    <div id="section3">
-      <h2>Section 3</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aperiam, dolores eum id officia repellendus quae illum hic veniam aliquam atque officiis qui vel quidem quos. Dolorum vitae ea accusantium.
-      <!-- Content of Section 3 -->
-    </div>
-   </section>
-    <footer>
-        <div id="forms">
-            <form action="https://formsubmit.co/djovety@gmail.com" method="POST">
-                <br><br>
-                <label for="name">Your Name:</label>
-                <input type="name" id="name" name="name" required>
-                <br><br>
-                <label for="surname">Your Surname:</label>
-                <input type="surname" id="surname" name="surname" required>
-                <br><br>
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea>
-                <br><br>
-                <input type="submit" value="Submit">
-            </form>  
-          </div>   
-    </footer>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
