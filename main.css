@@ -221,5 +221,13 @@ nav {
   }
 }
 @media (min-width: 1024px) {
-  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background-color: #333;
+    font-size: larger;
+    color: #ffffff;
+    text-align: left;
+  }
 }
