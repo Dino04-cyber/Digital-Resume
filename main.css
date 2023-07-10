@@ -154,7 +154,7 @@ nav {
   nav a:hover {
     color: white;
     background-color: #ff6600;
-    transform: scale(0.5) translateY(-15px);
+    transform: scale(1.5);
   }
 
 /* ---------------------------------------------MENU BUTTON CODE---------------------------------------------*/
