@@ -191,8 +191,49 @@ nav {
   color: #ffffff;
 }
 
+/* ------------------------------------------GRID CONTAINER------------------------------------------- */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+  grid-gap: 20px; /* Gap between grid items */
+}
+
+.grid-item {
+  padding: 20px;
+  background-color: #333;
+  color: #ffffff;
+}
+
+#contact {
+  grid-column: 1 / 2; /* Place contact div in the first column */
+}
+
+#social-links {
+  grid-column: 2 / 3; /* Place social-links div in the second column */
+}
+
+
 /* Media query for screen size below 600px */
 @media screen and  (max-width: 767px) {
+  .grid-container {
+    display: none;
+    grid-template-rows: none;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  #contact {
+    grid-row: 1 / 2;
+  }
+  
+  #social-links {
+    grid-row: 2 / 2; 
+  }
+  
   .menu {
     display: none;
   }
@@ -217,7 +258,52 @@ nav {
   }
   
 }
-@media (min-width: 768px)  and (max-width:1023px){
+
+@media (min-width: 768px)  and (max-width:1023px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: none;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  #contact {
+    grid-row: 1 / 2;
+  }
+  
+  #social-links {
+    grid-row: 2 / 2; 
+  }
+  
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  /* Show menu when checkbox is checked */
+  #menu-toggle:checked ~ .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background-color: #333;
+    font-size: small;
+    color: #ffffff;
+    text-align: justify;
+  }
+  
+}
+@media (min-width:1024px){
   body {
     padding: 0;
     margin: 0;
