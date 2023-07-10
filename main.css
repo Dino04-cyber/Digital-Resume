@@ -12,7 +12,7 @@ body {
   /* Header styles */
   header {
     background-color: #000000;
-    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -130,7 +130,6 @@ body {
 nav {
     background-color: #000000;
     display: flex;
-    justify-content: space-around;
     justify-content: space-evenly;
   }
   
@@ -155,6 +154,7 @@ nav {
   nav a:hover {
     color: white;
     background-color: #ff6600;
+    transform: scale(0.5) translateY(-15px);
   }
 
 /* ---------------------------------------------MENU BUTTON CODE---------------------------------------------*/
