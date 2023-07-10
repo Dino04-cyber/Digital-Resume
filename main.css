@@ -123,8 +123,8 @@ body {
     filter: invert(30);
   }
   #social-links a:hover {
-    transform: scale(0.5) translateY(-15px);
-    filter: brightness(50);
+    transform: scale(1.5);
+    /* filter: brightness(50); */
   }
   /* ---------------------------------------------NAV BAR CODE---------------------------------------------*/
 nav {
@@ -154,7 +154,7 @@ nav {
   nav a:hover {
     color: white;
     background-color: #ff6600;
-    transform: scale(1.5);
+    transform: scale(0.8);
   }
 
 /* ---------------------------------------------MENU BUTTON CODE---------------------------------------------*/
@@ -195,7 +195,7 @@ nav {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
-  grid-gap: 20px; /* Gap between grid items */
+  grid-gap: 20px;
 }
 
 .grid-item {
@@ -213,7 +213,7 @@ nav {
 }
 
 
-/* Media query for screen size below 600px */
+/*------------------------------------Media query for Device Responsiveness------------------------------*/
 @media screen and  (max-width: 767px) {
   .grid-container {
     display: none;
@@ -242,7 +242,7 @@ nav {
     display: block;
   }
 
-  /* Show menu when checkbox is checked */
+  /*------------------------------------- Show menu when checkbox is checked ----------------------------*/
   #menu-toggle:checked ~ .menu {
     display: flex;
     flex-direction: column;
@@ -258,7 +258,7 @@ nav {
   }
   
 }
-
+/* ---------------------------Responsiveness for Tablets or Larger Phones/Devices----------------------- */
 @media (min-width: 768px)  and (max-width:1023px) {
   .grid-container {
     display: grid;
@@ -276,7 +276,7 @@ nav {
   }
   
   #social-links {
-    grid-row: 2 / 2; 
+    grid-row: 1 / 2; 
   }
   
   .menu {
@@ -287,7 +287,6 @@ nav {
     display: block;
   }
 
-  /* Show menu when checkbox is checked */
   #menu-toggle:checked ~ .menu {
     display: flex;
     flex-direction: column;
@@ -310,17 +309,6 @@ nav {
     font-family: Poppins, sans-serif;
     background-color: #333;
     font-size: medium;
-    color: #ffffff;
-    text-align: left;
-  }
-}
-@media (min-width: 1024px) {
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: Poppins, sans-serif;
-    background-color: #333;
-    font-size: larger;
     color: #ffffff;
     text-align: left;
   }
