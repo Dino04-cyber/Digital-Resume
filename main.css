@@ -12,8 +12,9 @@ body {
   /* Header styles */
   header {
     background-color: #000000;
+    background-size: cover;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     text-align: center;
   }
   
@@ -54,8 +55,10 @@ body {
   }
   
   header a {
+    color: #ff6600;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0px;
+    text-decoration: underline;
   }
   
   /* Section styles */
@@ -116,7 +119,12 @@ body {
   #social-links a {
     display: inline-block;
     margin-right: 10px;
-    color: #fff;
+    color: #ffffff;
+    filter: invert(30);
+  }
+  #social-links a:hover {
+    transform: scale(0.5) translateY(-15px);
+    filter: brightness(50);
   }
   /* ---------------------------------------------NAV BAR CODE---------------------------------------------*/
 nav {
