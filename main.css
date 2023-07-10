@@ -140,7 +140,7 @@ nav {
     background-color: #ff6600;
   }
 
-  /* ---------------------------------------------MENU BUTTON CODE---------------------------------------------*/
+/* ---------------------------------------------MENU BUTTON CODE---------------------------------------------*/
 /* Styles for the menu button */
 .menu-btn {
   display: none;
@@ -158,7 +158,6 @@ nav {
 #menu-toggle {
   display: none;
 }
-
 /* Styles for the menu */
 .menu {
   display: flex;
@@ -190,4 +189,10 @@ nav {
     display: flex;
     flex-direction: column;
   }
+}
+@media (max-width: 750px) {
+  
+}
+@media (max-width: 1024px) {
+  
 }
