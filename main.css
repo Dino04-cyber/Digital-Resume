@@ -76,7 +76,7 @@ body {
     color: #ff6600;
 
   }
-  
+
   /* Footer styles */
   footer {
     background-color: #333;
@@ -216,7 +216,6 @@ nav {
 /*------------------------------------Media query for Device Responsiveness------------------------------*/
 @media screen and  (max-width: 767px) {
   .grid-container {
-    display: none;
     grid-template-rows: none;
   }
   
