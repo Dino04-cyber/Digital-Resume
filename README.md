@@ -1,4 +1,4 @@
-# digital-resume
+
 Osvaldino Jovete
 
 This is my final capstone project where i had to create a digital resume using the html and css skills i learnt throughout my LMS
