@@ -68,6 +68,7 @@ section {
 }
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 section h2 {
@@ -83,8 +84,9 @@ section h2 {
 
 /* Footer styles */
 footer {
-  background-color: #333;
-  padding: 10px;
+  background-color: #000000;
+  border: none;
+  padding: 0px;
   text-align: center;
   font-weight: bolder;
 }
@@ -97,8 +99,8 @@ footer h3 {
 footer form input,
 footer form textarea {
   font-family: Poppins, sans-serif;
-  background-color: #000000;
-  color: #333;
+  background-color: #333;
+  color: #ffffff;
   display: block;
   width: 100%;
   border-radius: 20px;
@@ -106,9 +108,18 @@ footer form textarea {
   margin-bottom: 10px;
   padding: 10px;
 }
+input::placeholder{
+  color:white;
+  font-style: italic;
+}
+textarea::placeholder{
+  color: white;
+  font-style: italic;
+}
+
 footer form button {
   font-family: Poppins, sans-serif;
-  background-color: #000000;
+  background-color: #333;
   color: #fff;
   display: block;
   width: 100%;
@@ -200,14 +211,14 @@ nav a:hover {
 
 /* ------------------------------------------GRID CONTAINER------------------------------------------- */
 .grid-container {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
   grid-gap: 20px;
 }
 
 .grid-item {
   padding: 20px;
-  background-color: #333;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -221,24 +232,6 @@ nav a:hover {
 
 /*------------------------------------Media query for Device Responsiveness------------------------------*/
 @media screen and (max-width: 767px) {
-  .grid-container {
-    grid-template-rows: none;
-  }
-
-  .grid-item {
-    padding: 20px;
-    background-color: #333;
-    color: #ffffff;
-  }
-
-  #contact {
-    grid-row: 1 / 2;
-  }
-
-  #social-links {
-    grid-row: 2 / 2;
-  }
-
   .menu {
     display: none;
   }
@@ -271,7 +264,7 @@ nav a:hover {
 
   .grid-item {
     padding: 20px;
-    background-color: #333;
+    background-color: #000000;
     color: #ffffff;
   }
 
@@ -305,6 +298,7 @@ nav a:hover {
     text-align: center;
   }
 }
+/* ----------------------------Responsiveness for Desktop or devices larger than 1024px---------------------------- */
 @media (min-width: 1024px) {
   body {
     padding: 0;
@@ -314,5 +308,23 @@ nav a:hover {
     font-size: medium;
     color: #ffffff;
     text-align: left;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-rows: none;
+  }
+
+  .grid-item {
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  #contact {
+    grid-row: 1 / 2;
+  }
+
+  #social-links {
+    grid-row: 1 / 2;
   }
 }
