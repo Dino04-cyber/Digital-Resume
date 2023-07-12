@@ -24,6 +24,7 @@ header .profile-image {
 
 header .image-container {
   display: inline-block;
+  margin-top: 10px;
   width: 150px;
   height: 150px;
   overflow: hidden;
