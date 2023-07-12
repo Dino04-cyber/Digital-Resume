@@ -80,9 +80,7 @@ body {
   /* Footer styles */
   footer {
     background-color: #333;
-    color: #ff7b00;
     padding: 10px;
-    text-align: center;
   }
   
   footer h3 {
@@ -94,13 +92,14 @@ body {
   footer form textarea {
     font-family: Poppins,sans-serif;
     background-color: #000000;
-    color: #fff;
+    color: #333;
     display: block;
     width: 100%;
+    border-radius: 20px;
+    border: none;
     margin-bottom: 10px;
     padding: 10px;
   }
-  
   footer form button {
     font-family: Poppins,sans-serif;
     background-color: #000000;
@@ -108,6 +107,7 @@ body {
     display: block;
     width: 100%;
     padding: 10px;
+    border-radius: 20px;
     border: none;
     cursor: pointer;
   }
@@ -115,16 +115,15 @@ body {
   footer p {
     margin-top: 10px;
   }
-  
   #social-links a {
     display: inline-block;
     margin-right: 10px;
     color: #ffffff;
+    border: none;
     filter: invert(30);
   }
   #social-links a:hover {
-    transform: scale(1.5);
-    /* filter: brightness(50); */
+    transform: scale(1.1);
   }
   /* ---------------------------------------------NAV BAR CODE---------------------------------------------*/
 nav {
