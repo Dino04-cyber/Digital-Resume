@@ -62,7 +62,7 @@ header a {
 }
 
 /*--------------------------------------------------  Section styles -------------------------------------------------- */
-.color1{
+.color1 {
   color: #ff6600;
   text-emphasis-style: bold;
 }
@@ -115,11 +115,11 @@ footer form textarea {
   margin-bottom: 10px;
   padding: 10px;
 }
-input::placeholder{
-  color:white;
+input::placeholder {
+  color: white;
   font-style: italic;
 }
-textarea::placeholder{
+textarea::placeholder {
   color: white;
   font-style: italic;
 }
@@ -237,7 +237,7 @@ nav a:hover {
 }
 
 /*------------------------------------Media query for Device Responsiveness------------------------------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
   .menu {
     display: none;
   }
@@ -258,7 +258,10 @@ nav a:hover {
     background-color: #333;
     font-size: small;
     color: #ffffff;
-    text-align: justify;
+    text-align: center;
+  }
+  #achievements li {
+    list-style-type: none;
   }
 }
 /* ---------------------------Responsiveness for Tablets or Larger Phones/Devices----------------------------------- */
