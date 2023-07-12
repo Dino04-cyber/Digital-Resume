@@ -9,7 +9,7 @@ body {
   text-align: left;
 }
 
-/* Header styles */
+/*--------------------------------------------------  Header styles--------------------------------------------------  */
 header {
   background-color: #000000;
   background-position: center;
@@ -61,7 +61,7 @@ header a {
   text-decoration: underline;
 }
 
-/* Section styles */
+/*--------------------------------------------------  Section styles -------------------------------------------------- */
 section {
   margin: 30px 0;
   padding: 0 20px;
@@ -82,7 +82,7 @@ section h2 {
   font-weight: lighter;
 }
 
-/* Footer styles */
+/*-------------------------------------------------- Footer styles-------------------------------------------------- */
 footer {
   background-color: #000000;
   border: none;
@@ -175,8 +175,7 @@ nav a:hover {
   transform: scale(0.8);
 }
 
-/* ---------------------------------------------MENU BUTTON CODE---------------------------------------------*/
-/* Styles for the menu button */
+/* ---------------------------------------------MENU BUTTON CODE-----------------------------------------------------*/
 .menu-btn {
   display: none;
   cursor: pointer;
@@ -189,11 +188,11 @@ nav a:hover {
   margin-bottom: 5px;
   background-color: #ff6600;
 }
-/* Hides the checkbox */
+/*-------------------------------------------- Hides the checkbox--------------------------------------------------- */
 #menu-toggle {
   display: none;
 }
-/* Styles for the menu */
+/*----------------------------------------------- Styles for the menu -----------------------------------------------*/
 .menu {
   display: flex;
   justify-content: center;
@@ -209,7 +208,7 @@ nav a:hover {
   color: #ffffff;
 }
 
-/* ------------------------------------------GRID CONTAINER------------------------------------------- */
+/* ------------------------------------------GRID CONTAINER--------------------------------------------------------- */
 .grid-container {
   /* display: grid; */
   grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
@@ -230,7 +229,7 @@ nav a:hover {
   grid-column: 2 / 3; /* Place social-links div in the second column */
 }
 
-/*------------------------------------Media query for Device Responsiveness------------------------------*/
+/*------------------------------------Media query for Device Responsiveness------------------------------------------*/
 @media screen and (max-width: 767px) {
   .menu {
     display: none;
@@ -240,7 +239,7 @@ nav a:hover {
     display: block;
   }
 
-  /*------------------------------------- Show menu when checkbox is checked ----------------------------*/
+  /*------------------------------------- Show menu when checkbox is checked ----------------------------------------*/
   #menu-toggle:checked ~ .menu {
     display: flex;
     flex-direction: column;
@@ -255,7 +254,7 @@ nav a:hover {
     text-align: justify;
   }
 }
-/* ---------------------------Responsiveness for Tablets or Larger Phones/Devices----------------------- */
+/* ---------------------------Responsiveness for Tablets or Larger Phones/Devices----------------------------------- */
 @media (min-width: 768px) and (max-width: 1023px) {
   .grid-container {
     display: grid;
@@ -298,7 +297,7 @@ nav a:hover {
     text-align: center;
   }
 }
-/* ----------------------------Responsiveness for Desktop or devices larger than 1024px---------------------------- */
+/* ----------------------------Responsiveness for Desktop or devices larger than 1024px----------------------------- */
 @media (min-width: 1024px) {
   body {
     padding: 0;
