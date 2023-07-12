@@ -86,6 +86,8 @@ body {
   footer {
     background-color: #333;
     padding: 10px;
+    text-align: center;
+    font-weight: bolder;
   }
   
   footer h3 {
@@ -132,7 +134,7 @@ body {
   }
   /* ---------------------------------------------NAV BAR CODE---------------------------------------------*/
 nav {
-    background-color: #000000;
+    background-color: #333;
     display: flex;
     justify-content: space-evenly;
   }
