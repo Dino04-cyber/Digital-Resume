@@ -76,6 +76,11 @@ body {
     color: #ff6600;
 
   }
+  #achievements li{
+    list-style-type: block;
+    padding: 10px;
+    font-weight: lighter;
+  }
 
   /* Footer styles */
   footer {
@@ -298,7 +303,7 @@ nav {
     background-color: #333;
     font-size: small;
     color: #ffffff;
-    text-align: justify;
+    text-align: center;
   }
   
 }
