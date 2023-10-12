@@ -1,8 +1,31 @@
 
-Osvaldino Jovete
+# Osvaldino Jovete - Capstone Project
 
-This is my final capstone project where i had to create a digital resume using the html and css skills i learnt throughout my LMS
+## Introduction
 
-The index.html file and style.css are responsible for the landing pages so open up the index.html first
+This is my final capstone project, showcasing my skills in HTML and CSS, which I have acquired throughout my learning management system (LMS) journey.
 
-<a href="https://www.figma.com/file/ffpc2QTZU7Y6eRlEEh7bSR/OSVJOV233_FTC2306_GROUPC_OsvaldinoJovete_ITW_Digital_Resume?type=design&node-id=0%3A1&mode=design&t=0y9wItNHdtKWAug4-1"> Figma Link</a>
+## Project Overview
+
+This project consists of a digital resume, primarily composed of the following files:
+
+- **index.html:** The landing page for the digital resume.
+- **style.css:** The associated CSS file for styling and layout.
+
+## Getting Started
+
+To view this digital resume, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your preferred web browser to access the landing page.
+
+## Additional Resources
+
+- **Figma Link:** <a href="https://www.figma.com/file/ffpc2QTZU7Y6eRlEEh7bSR/OSVJOV233_FTC2306_GROUPC_OsvaldinoJovete_ITW_Digital_Resume?type=design&node-id=0%3A1&mode=design&t=0y9wItNHdtKWAug4-1"> Figma</a>
+
+When exploring the project, be sure to start with the `index.html` file as it serves as the landing page and provides the initial introduction to my digital resume.
+
+## Author
+
+- Osvaldino Jovete
+
